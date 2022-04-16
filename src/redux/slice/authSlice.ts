@@ -1,5 +1,5 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
-import { UserType } from 'types/authType';
+import { UserType } from 'redux/types/authType';
 import logger from 'utils/logger';
 
 const loggerName = 'AuthSlice';

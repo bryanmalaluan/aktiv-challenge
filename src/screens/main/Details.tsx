@@ -7,11 +7,11 @@ import ProgressiveImage from 'components/molecules/ProgressiveImage';
 import Col from 'components/containers/Col';
 import KeyboardAwareScrollView from 'components/containers/KeyboardAwareScrollView';
 import AnimatedDetails from 'components/organisms/AnimatedDetails';
-import { SearchImageResultType } from 'types/pixabayType';
-import { responsiveScale } from 'utils/dataFormat';
-import { colors } from 'utils/theme';
 import Button from 'components/molecules/Button';
 import Row from 'components/containers/Row';
+import { responsiveScale } from 'utils/dataFormat';
+import { colors } from 'utils/theme';
+import { SearchImageResultType } from 'services/types/pixabayType';
 
 const IMAGE_HEIGHT = responsiveScale(300);
 

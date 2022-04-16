@@ -13,8 +13,8 @@ import HomeSkeletonLoader from 'components/organisms/HomeSkeletonLoader';
 import InputField from 'components/molecules/InputField';
 import { responsiveScale } from 'utils/dataFormat';
 import pixabayService from 'services/pixabayService';
-import { SearchImageResultType } from 'types/pixabayType';
 import routes from 'navigation/routes';
+import { SearchImageResultType } from 'services/types/pixabayType';
 
 const SPACER = 2;
 const IMAGE_HEIGHT = responsiveScale(140);

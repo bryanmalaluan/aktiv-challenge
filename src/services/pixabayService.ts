@@ -1,6 +1,6 @@
 import { get } from 'network';
-import { PixabaySearchImagesType } from 'types/pixabayType';
 import logger from 'utils/logger';
+import { PixabaySearchImagesType } from './types/pixabayType';
 
 const KEY = '26698752-a8cb41d633375220af2c83bcc';
 const PER_PAGE = 16;

@@ -1,4 +1,4 @@
-import { UserType } from 'types/authType';
+import { UserType } from './types/authType';
 
 export type SelectorState = {
   auth: {

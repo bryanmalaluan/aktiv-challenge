@@ -7,9 +7,9 @@ import { QueryClientProvider } from 'react-query';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { getData } from 'utils/asyncStorage';
 import { storage } from 'utils/constants';
-import { UserType } from 'types/authType';
 import store from 'redux/store';
 import queryClient from 'network/queryClient';
+import { UserType } from 'redux/types/authType';
 
 LogBox.ignoreAllLogs();
 LogBox.ignoreLogs([

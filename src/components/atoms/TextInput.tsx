@@ -47,8 +47,8 @@ const StyledTextInput = styled.TextInput<Props>`
   font-size: ${props => props.fontSize || 14}px;
   line-height: ${props => props.lineHeight || 16}px;
   font-weight: 500;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 `;
 
 const TextInput: React.FC<Props> = ({ ...props }) => {

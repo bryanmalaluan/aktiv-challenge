@@ -3,9 +3,9 @@ import { createStackNavigator } from '@react-navigation/stack';
 import routes from './routes';
 import AuthStackNavigator from './AuthStackNavigator';
 import MainStackNavigator from './MainStackNavigator';
-import { UserType } from 'types/authType';
 import { useDispatch } from 'react-redux';
 import { setUser } from 'redux/slice/authSlice';
+import { UserType } from 'redux/types/authType';
 
 const RootStack = createStackNavigator();
 
